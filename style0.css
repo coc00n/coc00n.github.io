@@ -1,0 +1,79 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+html {
+    color: crimson;
+    font-weight: bolder;
+}
+h1 {
+    color: rgb(14, 219, 219);
+    font-family: 'MuseoModerno', cursive;
+    margin: 1% 30% 1%;
+    position: fixed;
+    top: 10px;
+}
+h4 {
+    font-family: 'MuseoModerno', cursive;
+}
+p {
+    color: rgb(7, 155, 155);
+    width: 25;
+    height: 16;
+}
+ul {
+    color: indianred;
+    font-weight: bold;
+    font-family: 'MuseoModerno', cursive;
+}
+img {
+    width: 500px;
+    box-shadow: 6px 6px 14px rgb(247, 238, 113);
+    margin: 0% 10% 2% 10%;
+}
+#bovebben {
+    color: indigo;
+    text-align: justify; 
+    font-size: 28px; 
+    width: 500px;
+    max-width: 75%;
+    min-height: 2%;
+}
+.content {
+    color: lightcoral;
+    font-weight: bolder;
+}
+.leiras {
+    text-align: justify; 
+    color:rgb(94, 89, 89); 
+    font-size: 24px; 
+    width: 500px;
+    margin: 2% 30%;
+    background-color:peachpuff;
+    border: solid rgb(228, 149, 103);
+    border-width: 10px;
+    padding: 10px;
+}
+.form-control {
+    padding: 5px;
+    border: 1px solid blueviolet;
+    display: block;
+}
+.login input {
+    display: block;
+    margin-bottom: 7px;
+}
+.login {
+    padding: 10px;
+    margin: 0px 1100px 10px 10px;
+    border: solid palevioletred;
+    border width: 15px;
+}
+.submit-btn:hover {
+    box-shadow: 0 0 3px rgb(247, 69, 152);
+}
+.login input:focus {
+    box-shadow: none;
+}
+ul li:first-child {
+    text-decoration: line-through;
+}
+</style>
